@@ -1,11 +1,13 @@
 .container{
-    display: flex;
-    background-color: lightblue;
-      flex-direction: column-reverse;
+    background-color: rgb(107, 201, 233);
+    flex-direction: row;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box{
-    background-color: lightcoral;
+    background-color: rgb(233, 163, 163);
     width: 100px;
     height: 100px;
     margin: 10px;
