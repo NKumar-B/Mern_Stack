@@ -14,50 +14,53 @@
         <main>
             <form>
                 <label>Name:</label>
-                <input type="text" placeholder="Nithin kumar">
+                <input id="Name" type="text" placeholder="Nithin kumar">
                 <br><br>
                 <label>Email:</label>
-                <input type="email" placeholder="nithinkumarbadduluri@gmail.com">
+                <input id="Email" type="email" placeholder="nithinkumarbadduluri@gmail.com">
                 <br><br>
                 <label>Password:</label>
-                <input type="password" placeholder="********">
+                <input  id="Password" type="password" placeholder="********">
                 <br><br>
                 <label>Phone no:</label>
-                <input type="tel" placeholder="1234567890">
+                <input  id="Phone" type="tel" placeholder="1234567890">
                 <br><br>
                 <label>Gender:</label>
-                <input type="radio" name="gender" id="1">Male
-                <input type="radio" name="gender" id="2">Female
+                <input type="radio" name="gender" id="1" value="Male">Male
+                <input type="radio" name="gender" id="2" value="Female">Female
                 <br><br>
                 <label>Qualification:</label>
-                <input type="checkbox">B.Tech
-                <input type="checkbox">M.Tech
+                <input type="checkbox" name="qualification" id="B.Tech" value="B.Tech">B.Tech
+                <input type="checkbox" name="qualification" id="M.Tech" value="M.Tech">M.Tech
                 <br><br>
                 <label>Country:</label>
-                <select>
-                    <option>India</option>
-                    <option>USA</option>
-                    <option>UK</option>
-                    <option>Canada</option>
+                <select id="Country" >
+                    <option id="India" value="India">India</option>
+                    <option id="USA" value="USA">USA</option>
+                    <option id="UK" value="UK">UK</option>
+                    <option id="Canada" value="Canada">Canada</option>
                 </select>
                 <br><br>
                 <label>Date of birth:</label>
-                <input type="datetime-local">
+                <input id="Dateofbirth" type="datetime-local">
                 <br><br>
-                <label>Color:</label>
-                <input type="color">
-                <br><br>
+                
                 <label>Image:</label>
-                <input type="file">
+                <input id="Image" type="file">
                 <br><br>
-                <button type="submit">Submit</button>
+                <button onclick="show(event)" id="btn"  type="submit" >Submit</button>
             </form>
 
         </main>
+
+        <div id="Result">
+            
+        </div>
         <footer>
-            <p>© 2024 MERN Stack Application. All rights reserved.</p>
+            <!-- <p>© 2026 MERN Stack Application. All rights reserved.</p> -->
         </footer>
     </div>   
+    
     <script src="/JS/script.js"></script>   
 </body>
 </html>

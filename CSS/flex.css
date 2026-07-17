@@ -16,3 +16,35 @@
     font-size: 20px;
   
 }
+#box {
+    position: relative;
+}
+.btn{
+    background-color: #9bf0ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+   padding: 10px;
+  margin: 20px;
+  top: 0px;
+  left: 0px;
+}
+
+#Right
+{
+    background-color: rgb(226, 128, 230);
+}
+#Left
+{
+    background-color: rgb(226, 128, 230);
+}
+#Up
+{
+    background-color: rgb(226, 128, 230);
+}
+#Down
+{
+    background-color: rgb(226, 128, 230);
+}

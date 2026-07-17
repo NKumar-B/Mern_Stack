@@ -8,10 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <div class="box">apple</div>
+        <div class="box" id="box">apple</div>
         <div class="box">banana</div>
         <div class="box">orange</div>
     </div>
+
+    <div class="btn">
+        <button id="Right" onmouseover="moveRight()">Right</button>
+        <button id="Left" onclick="moveLeft()">Left</button>
+        <button id="Up" onkeypress="moveUp()">Up</button>
+        <!-- <button id="Down" onkeyup="moveDown()">Down</button> -->
+        <!-- <button id="Down" ondblclick="moveDown()">Down</button> -->
+        <!-- <button id="Down" onmousewheel="moveDown()">Down</button> -->
+        <!-- <button id="Down" onkeydown="moveDown()">Down</button> -->
+        <button id="Down" onmouseup="moveDown()">Down</button>
+    </div>
+
+    <script src="../JS/boxes.js"></script>
     
 </body>
 </html>
