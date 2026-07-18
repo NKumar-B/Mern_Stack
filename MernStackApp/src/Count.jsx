@@ -11,7 +11,7 @@ function Count() {
     }
     const[mobile,setMobile]=useState("");
     function handlebuy(){
-        setMobile("Redmi 13Pro+ 5G")
+        setMobile("Samsung Galaxy A23 5G")
     }
     const[text,setText]=useState("");
     function handlechange(e){
@@ -30,7 +30,7 @@ function Count() {
         <input className='input' type="text" placeholder='rice' onChange={handlechange}/>
         <button className='btn' onChange={handlechange}>Change</button>
 
-        <Parent name="Nithin"></Parent>
+        {/* <Parent name="Nithin"></Parent> */}
     </div>
   )
 }

@@ -11,9 +11,9 @@ createRoot(document.getElementById('root')).render(
     {/* <JSX /> */}
     {/* <MernHistory name={10}/> */}
     {/* <MernHistory name="Mern"/> */}
-    
+
     <Count/>
-    <userContext.Provider value="Nithin">
+    <userContext.Provider value="Nithya">
     <Parent/>
     </userContext.Provider>
   </StrictMode>,

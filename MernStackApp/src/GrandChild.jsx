@@ -3,7 +3,7 @@ import userContext from './UserContext.jsx'
 function GrandChild() {
     const name = useContext(userContext);
   return (
-   <div>GrandChild: {name}</div>
+   <h1 style={{color:"red"}}>GrandChild: {name}</h1>
   )
 }
 
