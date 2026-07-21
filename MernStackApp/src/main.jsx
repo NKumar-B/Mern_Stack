@@ -6,6 +6,9 @@ import Count from './Count.jsx'
 import Parent from './Parent.jsx'
 import userContext from './UserContext.jsx'
 import Forms from './Forms.jsx'
+import Events from './Events.jsx'
+import Light from './Light.jsx'
+import API from './API.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,10 +16,14 @@ createRoot(document.getElementById('root')).render(
     {/* <MernHistory name={10}/> */}
     {/* <MernHistory name="Mern"/> */}
 
-    <Forms />
+    {/* <Forms /> */}
     {/* <Count/> */}
     {/* <userContext.Provider value="Nithya">
     <Parent/>
     </userContext.Provider> */}
+    {/* <Events/> */}
+    {/* <Light /> */}
+    <API />
+
   </StrictMode>,
 )
