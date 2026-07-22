@@ -9,6 +9,7 @@ import Forms from './Forms.jsx'
 import Events from './Events.jsx'
 import Light from './Light.jsx'
 import API from './API.jsx'
+import DB_connect from './DB_connect.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,7 +24,8 @@ createRoot(document.getElementById('root')).render(
     </userContext.Provider> */}
     {/* <Events/> */}
     {/* <Light /> */}
-    <API />
+    {/* <API /> */}
+    <DB_connect />
 
   </StrictMode>,
 )

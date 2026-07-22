@@ -92,7 +92,7 @@ function API() {
 
     return (
         <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-            <h2>User Management System (HTTP Methods)</h2>
+            <h2>Methods</h2>
 
             {/* Action Buttons Header */}
             <div style={{ marginBottom: '20px' }}>
@@ -118,7 +118,7 @@ function API() {
                     onClick={fetchUsers}
                     style={{ margin: '5px', padding: '10px 15px', cursor: 'pointer', backgroundColor: '#ff9800', color: 'white', border: 'none' }}
                 >
-                    Fetch / Refresh Users
+                    Fetch Users
                 </button>
             </div>
 
