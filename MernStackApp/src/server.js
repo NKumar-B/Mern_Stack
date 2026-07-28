@@ -1,10 +1,11 @@
-const express =require("express");
-const mongoose=require("mongoose");
-const cors =require("cors");
-require("dotenv").config();
+import express from "express";
+import mongoose from "mongoose";
+import cors from "cors";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app=express();
-app.use(cors({origin:"http://localhost:5175",credentials:true}));
+app.use(cors({origin:"http://localhost:5173",credentials:true}));
 app.use(express.json());
 
 const PORT =process.env.PORT || 5000;
@@ -27,7 +28,7 @@ const contactSchema = new mongoose.Schema({
 
 const Contact = mongoose.model("Contact", contactSchema);
 
-app.post("/contact", async (req, res) => {
+app.post("/api/contact", async (req, res) => {
     const { name, email, message } = req.body;
     const contact = new Contact({ name, email, message });
     await contact.save();
